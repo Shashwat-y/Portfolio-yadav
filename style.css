@@ -1,125 +1,169 @@
 
-.body1{
-  display: flex;
-  background-color: #D1BB9E;
-  width: 100%;
-  height: 100vh;
-}
-.body_left{
-  background-color: #FFF2E1;
-  height: 90%;
-
- display: flex;
- flex-direction: column;
- justify-content: space-evenly;
- margin-left: 22px;
- border-radius: 10px;
-}
-
-
-/* navigation */
-.body_left{
-  margin-top: 38px;
-}
-.body_left  i a{
-  color:#A79277;
-  text-decoration: none;
-  display: flex;
-  margin-right: 25px;
-  padding-left: 35px;
-}
-.body_left i{
-  margin-left: 25px;
-
-  margin-top:15px
-}
-
-.bi-back{
-  color: #A79277}
-
-.body_left i:hover{
-   transform: translateY(-4px); 
- transition-duration: 0.5s;
-}
-.right_bottom{
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 5%;
-  /* background-color: blanchedalmond; */
-}
-.right_top{
-  color:#FFF2E1;
-
-  /* background-color: aqua; */
+.navbar-nav{
   text-align: right;
-  font-family: "Cedarville Cursive", cursive;
+}
+body {
+  
+  font-family: "Sofia", sans-serif;
+  font-size:xx-large ;
+  text-align:right ;
+  background-image: url(./Images/photo-1510936111840-65e151ad71bb.avif);
+  background-size:contain;
+}
+
+#clockContainer{  
+  position: relative;
+  margin-top: 10%;
+  margin-left: 60%;
+  margin-bottom: 10%;
+  height: 20vw;
+  width: 20vw; 
+  background: url(./Images/clock.png) no-repeat;
+  background-size: 100%;
+}
+
+#hour, #minute, #second{
+  position: absolute;
+  background: black;
+  border-radius: 10px; 
+  transform-origin: bottom;
+}
+#hour{
+  width: 1.8%;
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  opacity: 0.8;  
+}
+#minute{
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.9%;
+  opacity: 0.8;  
+}
+#second{
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.25%;
+  opacity: 0.8; 
+  
+}
+
+nav{
+  font-size:x-large ;
+  color: white;
+  background-image: url(./Images/photo-1510936111840-65e151ad71bb.avif);
+}
+section{
+  margin-left: 33%;
+  margin-top: 0%;
+  margin-right: 10%;
+  color: rgb(208, 207, 185);
+}
+
+.navbar-nav {
+  position: fixed;
+    right: 10%;
+    top: 4%;
+    z-index: 9999;
+}
+.navbar-nav a{
+  color: white;
 
 }
-.right_bottom_text{
-  /* background-color: #FFF2E1; */
-text-wrap: wrap;
-margin-right: 9vw;
-border-radius: 10px;
-margin-left: 2vw;
+.navbar-left{
+  position: fixed;
+    left:7%;
+    top: 4%;
+   
+}
+.navbar a:hover{
+  color: rgba(221, 193, 34, 0.899);
+}
+.navbar-brand{
+  font-size: x-large;
+}
+.navbar-brand a{
+  align-content: start;
+  position: fixed;
+    left: 0;
+    top: 0;
+}
+.card-title{
+  font-size: xx-large;
+  text-align: center;
+}
+.card-text{
+  font-size: x-large;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 0%;
+  overflow: auto;
+ color: rgb(208, 207, 185)
+}
+.card{
+margin-top: 25%;
+padding-left: 0;
+margin-right: 20%;
+color: rgba(221, 193, 34, 0.899);
+border-radius: 5%;
+background-image: url(./Images/newbg.jpg);
+}
+.card :hover{
+transform: scale(1.05);
+}
+
+.row{
+margin-left: 33%;
+padding-bottom:20%;
+}
+element.style {
+width: 95%;
+}
+.card .btn {
+padding-top: 0%;
+margin-right: 39%;
+
+}
+.social{
+margin-right: 43%;
+margin-left: 10%;
+margin-bottom: 3%;
+}
+.social a{
+margin-right: 3%;
+text-decoration: none;
+
+}
+.card-body{
+min-height: fit-content;
+margin-bottom: 10%;
+}
+i{
+color: rgb(255, 255, 255);
+}
+i:hover{
+color: rgba(251, 223, 8, 0.899);
+}
+#skillhead{
+border-radius: 5%;
 text-align: center;
+font-size: 1.8rem;
+margin-top: 0%;
 
 }
-.right_bottom_text p , h3{
-  padding-left: 15px;
-  padding-right: 12px;
-  padding-top: 14px;
-  font-family: "Montserrat", sans-serif;
-}
-.right_bottom_photo{
-margin-right: 100px;
-text-align: center;
-margin-top: 170px;
-/* background-color: aquamarine; */
+.skills-list{
+display:flex;
+justify-content: center;
+align-content: center;
 
 }
-.image img{ 
-width: 80px;
-height: 250px;
-padding-right: 14px;
-padding-bottom: 185px;
+.skills-list img{
+height: 60px;
+width: 60px; 
 }
-.skills{
-  /* margin-top: 1000px; */
-  background-color: #FFF2E1;
-  margin-top: 4.5vw;
-  border-radius: 10px;
-
-}
-.text1{
-  background-color: #FFF2E1;
-  border-radius: 10px;
-}
-.t2 a{
-  text-decoration: none;
-  color: #D1BB9E;
-  font-style:italic;
-  font-weight: bold;
-  font-family: "Reddit Mono", sans-serif;
-}
-.t1 a{
-  text-decoration: none;
-  color: #D1BB9E;
-  font-style:italic;
-  font-weight: bold;
-  font-family: "Reddit Mono", sans-serif;
-}
-
-.t2 a:hover{
-  color: #FDAF7B;
-  text-decoration: underline #FDAF7B;
-  transition-duration: 0.3s;
-
-}
-.t1 a:hover{
-  color: #FDAF7B;
-  text-decoration: underline #FDAF7B;
-  transition-duration: 0.3s;
-}
-.body_left h3{
-  font-family: "Reddit Mono", sans-serif;
+#Skills {
+margin-bottom: 10%;
 }
